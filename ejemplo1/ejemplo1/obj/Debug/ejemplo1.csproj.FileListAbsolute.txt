@@ -1,0 +1,10 @@
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\bin\Debug\ejemplo1.exe.config
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\bin\Debug\ejemplo1.exe
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\bin\Debug\ejemplo1.pdb
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\obj\Debug\ejemplo1.csproj.AssemblyReference.cache
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\obj\Debug\ejemplo1.Form1.resources
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\obj\Debug\ejemplo1.Properties.Resources.resources
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\obj\Debug\ejemplo1.csproj.GenerateResource.cache
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\obj\Debug\ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\obj\Debug\ejemplo1.exe
+C:\Users\Ariel\Desktop\ejemplo1\ejemplo1\obj\Debug\ejemplo1.pdb
