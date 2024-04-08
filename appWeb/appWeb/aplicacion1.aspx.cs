@@ -16,8 +16,9 @@ namespace appWeb
 
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
-            txtNombre.Text = string.Empty;
+            
             lblMensaje.Text = "Bienvenido/a " + txtNombre.Text;
+            txtNombre.Text = string.Empty;
         }
     }
 }
