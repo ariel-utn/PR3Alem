@@ -38,9 +38,10 @@ namespace ejemplo1
             // lblTexto
             // 
             this.lblTexto.AutoSize = true;
-            this.lblTexto.Location = new System.Drawing.Point(78, 164);
+            this.lblTexto.Location = new System.Drawing.Point(104, 202);
+            this.lblTexto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTexto.Name = "lblTexto";
-            this.lblTexto.Size = new System.Drawing.Size(72, 13);
+            this.lblTexto.Size = new System.Drawing.Size(95, 17);
             this.lblTexto.TabIndex = 0;
             this.lblTexto.Text = "Elija la opcion";
             // 
@@ -49,9 +50,10 @@ namespace ejemplo1
             this.btnAceptar.FlatAppearance.BorderSize = 2;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.Red;
-            this.btnAceptar.Location = new System.Drawing.Point(327, 164);
+            this.btnAceptar.Location = new System.Drawing.Point(465, 264);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(90, 36);
+            this.btnAceptar.Size = new System.Drawing.Size(120, 44);
             this.btnAceptar.TabIndex = 2;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -60,9 +62,10 @@ namespace ejemplo1
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(183, 274);
+            this.lblMensaje.Location = new System.Drawing.Point(244, 337);
+            this.lblMensaje.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(0, 13);
+            this.lblMensaje.Size = new System.Drawing.Size(0, 17);
             this.lblMensaje.TabIndex = 3;
             // 
             // cbLista
@@ -71,21 +74,24 @@ namespace ejemplo1
             this.cbLista.Items.AddRange(new object[] {
             "Rojo",
             "Verde",
-            "Azul"});
-            this.cbLista.Location = new System.Drawing.Point(177, 164);
+            "Azul",
+            "Amarillo"});
+            this.cbLista.Location = new System.Drawing.Point(236, 202);
+            this.cbLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbLista.Name = "cbLista";
-            this.cbLista.Size = new System.Drawing.Size(120, 94);
+            this.cbLista.Size = new System.Drawing.Size(159, 106);
             this.cbLista.TabIndex = 4;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.cbLista);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.lblTexto);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
