@@ -46,9 +46,12 @@ namespace ejemplo1
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(334, 164);
+            this.btnAceptar.FlatAppearance.BorderSize = 2;
+            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.ForeColor = System.Drawing.Color.Red;
+            this.btnAceptar.Location = new System.Drawing.Point(327, 164);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.Size = new System.Drawing.Size(90, 36);
             this.btnAceptar.TabIndex = 2;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
